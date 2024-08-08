@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Define the BookRepository bean -->
+    <bean id="bookRepository" class="com.example.library.BookRepository">
+        <!-- You can configure any properties here if needed -->
+    </bean>
+
+    <!-- Define the BookService bean -->
+    <bean id="bookService" class="com.example.library.BookService">
+        <!-- Inject the BookRepository bean -->
+        <property name="bookRepository" ref="bookRepository" />
+    </bean>
+
+</beans>
