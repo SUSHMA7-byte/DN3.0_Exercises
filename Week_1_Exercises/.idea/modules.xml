@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Data_Structures_and_Algorithms/Data_Structures_and_Algorithms.iml" filepath="$PROJECT_DIR$/Data_Structures_and_Algorithms/Data_Structures_and_Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design_Patterns_and_Principles/Design_Patterns_and_Principles.iml" filepath="$PROJECT_DIR$/Design_Patterns_and_Principles/Design_Patterns_and_Principles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week_1_Exercises.iml" filepath="$PROJECT_DIR$/Week_1_Exercises.iml" />
+    </modules>
+  </component>
+</project>
